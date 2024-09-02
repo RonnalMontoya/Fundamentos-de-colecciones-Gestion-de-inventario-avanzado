@@ -1,0 +1,4 @@
+EXPLICACION DEL PROGRAMA
+Uso de Colecciones: Se utiliza un diccionario (self.productos) en la clase Inventario para almacenar productos. El diccionario permite un acceso rápido por ID y optimiza las operaciones de búsqueda y actualización. Las colecciones como listas, diccionarios y tuplas se integran en varios métodos para la gestión de datos de manera estructurada.
+Almacenamiento en Archivos: Se ha implementado la persistencia de datos con pickle. Esto permite guardar y cargar el inventario desde un archivo (inventario.dat), asegurando que la información no se pierda al cerrar el programa.
+Interfaz de Usuario: La interfaz permite a los usuarios interactuar con el inventario a través de un menú en la consola. Los usuarios pueden añadir, eliminar, actualizar, buscar y mostrar productos. El inventario se guarda automáticamente cuando el usuario elige salir.
